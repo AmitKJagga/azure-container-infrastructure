@@ -1,11 +1,11 @@
-﻿
+
 variable "location" {
 
   description = "Azure region"
 
-  type        = string
+  type = string
 
-  default     = "East US"
+  default = "East US"
 
 }
 
@@ -15,9 +15,9 @@ variable "container_image" {
 
   description = "Docker image to deploy"
 
-  type        = string
+  type = string
 
-  default     = "amit03773/aj-nginx:latest"
+  default = "amit03773/aj-nginx:latest"
 
 }
 
@@ -27,9 +27,9 @@ variable "cpu" {
 
   description = "CPU cores for container"
 
-  type        = number
+  type = number
 
-  default     = 0.5
+  default = 0.5
 
 }
 
@@ -39,9 +39,9 @@ variable "memory" {
 
   description = "Memory in GB for container"
 
-  type        = number
+  type = number
 
-  default     = 0.5
+  default = 0.5
 
 }
 
